@@ -1,7 +1,12 @@
 <!--game.wxml-->
+
 <view class="container layout">
   <view class="top-bar">
-    <view class="score">得分:{{score}}</view>
+        <view class="score">
+        <view class='avatar'> <image src='{{userInfo.avatarUrl}}'></image> </view> 
+        <view>{{userInfo.nickName}} <view class='num'>{{score}}</view></view>
+    
+    </view>
     <view class="timer">{{seconds}}</view>
     <view class="pause">
       <button class="btn-pause" hover-class="btn-pause-active" size="mini" bindtap="toPause">暂停</button>

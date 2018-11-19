@@ -10,7 +10,7 @@ page {
 }
 
 .layout{
-  background: #F06060;
+  background: #222222;
   color: #fff;
 }
 
@@ -19,12 +19,21 @@ page {
 }
 
 .g-btn{
-  background: #FCAD26;
+  background:#f3a51f;
   color: #fff;
-  width: 60%;
-  margin-top: 520rpx;
+  font-size:44rpx;
+  font-weight:800;
+  border-radius:90px;
+  width:600rpx;
+  margin-top:40rpx;
 }
 
 .g-btn-active{
   background: #f3a51f;
+}
+
+.f-c-c{
+    display: flex;
+    align-items:center;
+    justify-content:center;
 }

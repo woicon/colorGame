@@ -5,12 +5,29 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 30rpx;
-  padding: 18rpx 12rpx;
+  padding:40rpx 30rpx;
+}
+.avatar{
+    width:120rpx;
+    height:120rpx;
+    border-radius:90px;
+    overflow:hidden;
+    margin-right:14rpx;
 }
 
+.avatar image{
+    width:120rpx;
+    height:120rpx;
+}
 .score{
-  color: #f9bdbd;
+  color: #fff;
+  display:flex;
+  font-size:34rpx;
+}
+.score .num{
+    font-size:60rpx;
+    font-weight:800;
+    transition:.5s;
 }
 
 .timer{
@@ -29,9 +46,8 @@
 }
 
 .game{
-  padding: 0;
-  margin-top: 100rpx;
-  background: #eee;
+  padding:30rpx;
+  background: #222222;
   display: flex;
   flex-wrap: wrap;
 }
@@ -39,9 +55,9 @@
 .grid{
   width: 40rpx;
   height: 40rpx;
-  border: 6rpx solid #eee;
+  border:  5rpx solid #222222;
   box-sizing: border-box;
-  border-radius: 12rpx;
+  border-radius: 10rpx;
 }
 
 .cb-2{

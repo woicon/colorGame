@@ -1,14 +1,12 @@
-/**index.wxss**/
-
-.hd{
-  color: #fff;
-  margin-top: 200rpx;
-  font-size: 50rpx;
-  text-shadow: 1px 1px 1px #AB3C3C;
+page{
+    background:#222222;
 }
-
-.bd{
-  color: #f9bdbd;
-  margin-top: 100rpx;
-  font-size: 36rpx;
+.index{
+    flex-direction:column;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    top:90rpx;
+    color:#fff;
 }
